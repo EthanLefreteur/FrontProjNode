@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getRecipes } from "../api/recipesApi";
-import { Recipe } from "../types/Recipe";
+import type { Recipe } from "../types/Recipe";
 import { RecipeCard } from "../components/RecipeCard";
 
 export const HomePage = () => {
